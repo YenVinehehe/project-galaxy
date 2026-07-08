@@ -1462,7 +1462,7 @@ function initDefaultMusic() {
     musicPlayer.defaultAudio.loop = true;
 
     // Sử dụng link trực tiếp đến file nhạc (thay vì link trang web)
-    const defaultMusicUrl = 'https://github.com/YenVinehehe/project-galaxy/blob/main/Cảm%20Ơn%20Người%20Đã%20Thức%20Cùng%20Tôi%20-%20Phùng%20Khánh%20Linh.mp3';
+    const defaultMusicUrl = 'https://raw.githubusercontent.com/YenVinehehe/project-galaxy/main/Cảm%20Ơn%20Người%20Đã%20Thức%20Cùng%20Tôi%20-%20Phùng%20Khánh%20Linh.mp3';
     musicPlayer.defaultAudio.src = defaultMusicUrl;
 
     // Thêm debug logs
@@ -1510,7 +1510,7 @@ function initDefaultMusic() {
 }
 function tryBackupMusic() {
     const backupUrls = [
-        'https://github.com/YenVinehehe/project-galaxy/blob/main/Cảm%20Ơn%20Người%20Đã%20Thức%20Cùng%20Tôi%20-%20Phùng%20Khánh%20Linh.mp3',
+        'https://raw.githubusercontent.com/YenVinehehe/project-galaxy/main/Cảm%20Ơn%20Người%20Đã%20Thức%20Cùng%20Tôi%20-%20Phùng%20Khánh%20Linh.mp3',
     ];
 
     let currentIndex = 0;
