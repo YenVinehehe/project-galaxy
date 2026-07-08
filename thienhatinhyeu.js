@@ -1501,12 +1501,15 @@ function initDefaultMusic() {
     });
 
     // Tự động phát nhạc mặc định sau 3 giây
-    setTimeout(() => {
-        console.log('🎵 Thử phát nhạc mặc định...');
+    document.addEventListener(
+    "click",
+    () => {
         if (!musicPlayer.hasCustomMusic) {
             playDefaultMusic();
         }
-    }, 0);
+    },
+    { once: true }
+);
 }
 function tryBackupMusic() {
     const backupUrls = [
