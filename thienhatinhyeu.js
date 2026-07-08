@@ -1462,7 +1462,7 @@ function initDefaultMusic() {
     musicPlayer.defaultAudio.loop = true;
 
     // Sử dụng link trực tiếp đến file nhạc (thay vì link trang web)
-    const defaultMusicUrl = 'Cảm Ơn Người Đã Thức Cùng Tôi - Phùng Khánh Linh.mp3';
+    const defaultMusicUrl = 'music.mp3';
     musicPlayer.defaultAudio.src = defaultMusicUrl;
 
     // Thêm debug logs
@@ -1510,7 +1510,7 @@ function initDefaultMusic() {
 }
 function tryBackupMusic() {
     const backupUrls = [
-        'Cảm Ơn Người Đã Thức Cùng Tôi - Phùng Khánh Linh.mp3',
+        'music.mp3',
     ];
 
     let currentIndex = 0;
