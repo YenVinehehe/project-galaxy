@@ -3850,7 +3850,7 @@ sayHello("World");
 
 let pinProtection = {
     isActive: true,
-    correctPIN: '1809', // Mã PIN - bạn có thể thay đổi ở đây
+    correctPIN: '2512', // Mã PIN - bạn có thể thay đổi ở đây
     currentPIN: '',
     overlay: null,
     keypad: null,
@@ -3898,7 +3898,7 @@ function createIntroText(container) {
             💝 BA Galaxy Lock 💝
         </h1>
         <p style="font-size: 1.2em; margin: 10px 0; line-height: 1.6;">
-            Pass: XXXX
+            Pass: xxxx
         </p>
         <p style="font-size: 1em; color: #ffb6c1; margin: 15px 0;">
             💡 <strong>Gợi ý:</strong> Ngày BA thành lập... ✨
